@@ -6,7 +6,7 @@ function createTable() {
 		let rnn = Number(rn);
 		let cnn = Number(cn);
 		
-		if (rn<=0 || cn<=0 || rn=== null || cn ====null) {
+		if (rn<=0 || cn<=0 || rn=== null || cn ===null) {
 			alert("Negative/Zero/Null Input");
 			continue;
 		}
@@ -15,7 +15,7 @@ function createTable() {
 			alert("Non-Numeric Input");
 			continue;
 		}
-		else{
+		if (cn==cnn && rn==rnn) {
 			break;
 		}
 	}
