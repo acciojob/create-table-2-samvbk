@@ -12,16 +12,12 @@ function createTable() {
 		}
 		
 		if (rn.trim()!=="" &&!isNan(rnn) ||cn.trim()!=="" &&!isNan(cnn)) {
-			alert("Non-Numeric Input");
 			continue;
 		}
 		if (cn==cnn && rn==rnn) {
 			break;
 		}
 	}
-    
-	
-
 	for (let i = 0; i < rn; i++) {
 	const row = document.createElement("tr");
 	for (let j = 0; j < cn; j++){
